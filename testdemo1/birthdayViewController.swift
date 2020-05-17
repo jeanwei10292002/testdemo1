@@ -10,7 +10,7 @@ import UIKit
 
 class birthdayViewController: UIViewController {
 
-    @IBOutlet weak var datepicker: UIDatePicker!
+   @IBOutlet weak var datepicker: UIDatePicker!
     
     @IBSegueAction func showresult(_ coder: NSCoder) ->
    resultViewController? {
